@@ -1,0 +1,15 @@
+book:
+  service:
+    url: http://localhost:9561
+
+placeholder:
+  post:
+    url: https://jsonplaceholder.typicode.com
+
+service:
+  mock:
+    port: 1111
+
+feign:
+  circuitbreaker:
+    enabled: true
